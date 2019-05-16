@@ -9,8 +9,8 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     //const port = https://wlabi.github.io/Restaurant-Reviews-Udacity-FEND/; // Change this to your server port
-    //return `http://localhost:${port}/data/restaurants.json`;
-    return /data/restaurants.json;
+    return `http://localhost:${8000}/data/restaurants.json`;
+    //return /data/restaurants.json;
   }
 
   /**
