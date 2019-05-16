@@ -8,7 +8,6 @@ class DBHelper {
    * Change this to restaurants.json file location on your server.
    */
   static get DATABASE_URL() {
-    //return `https://github.com/wlabi/Restaurant-Reviews-Udacity-FEND/data/restaurants.json`;
     return `https://wlabi.github.io/Restaurant-Reviews-Udacity-FEND/data/restaurants.json`;
   }
 
