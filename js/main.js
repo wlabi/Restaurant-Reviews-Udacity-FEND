@@ -205,7 +205,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
  */
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register(`https://wlabi.github.io/Restaurant-Reviews-Udacity-FEND/service-worker.js`)
+    navigator.serviceWorker.register(`https://wlabi.github.io/Restaurant-Reviews-Udacity-FEND/service-worker.js`, {scope: '/'})
       .then(registration => {
         console.log('Service worker registered');
       })
