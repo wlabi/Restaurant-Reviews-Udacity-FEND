@@ -1,5 +1,5 @@
-let CACHE_NAME = 'restaurant-reviews-cache-v1';
-const CACHE_FILES = [
+var CACHE_NAME = 'restaurant-reviews-cache-v1';
+var CACHE_FILES = [
     '/',
     '/css/styles.css',
     '/data/restaurants.json',
