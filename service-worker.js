@@ -16,8 +16,8 @@ const CACHE_FILES = [
     '/js/dbhelper.js',
     '/js/main.js',
     '/js/restaurant_info.js',
-    'index.html',
-    'restaurant.html'
+    '/index.html',
+    '/restaurant.html'
 ];
 
 // install service worker
@@ -51,8 +51,8 @@ self.addEventListener('fetch', event => {
                     let responseClone = response.clone();
                     return caches.open(CACHE_NAME).then(cache => {
                         cache.put(event.request, responseClone);
+                        return response;
                     });
-                return response;
                 })
         }).catch(err => {
             console.log(err);
