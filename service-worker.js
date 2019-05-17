@@ -1,4 +1,4 @@
-const CACHE_NAME = 'restaurant-reviews-cache';
+const CACHE_NAME = 'restaurant-reviews-cache-v1';
 const CACHE_FILES = [
     '/',
     '/css/styles.css',
@@ -16,8 +16,8 @@ const CACHE_FILES = [
     '/js/dbhelper.js',
     '/js/main.js',
     '/js/restaurant_info.js',
-    'index.html',
-    'restaurant.html'
+    '/index.html',
+    '/restaurant.html'
 ];
 
 // install service worker
