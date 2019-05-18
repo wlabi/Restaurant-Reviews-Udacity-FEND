@@ -1,4 +1,4 @@
-const cache_name = 'v1';
+const cacheName = 'restaurant-reviews-cache-v1';
 const filesToCache = [
     '/',
     'css/styles.css',
@@ -22,24 +22,24 @@ const filesToCache = [
 
 // install service worker
 self.addEventListener('install', event => {
-    console.log('Installing service worker and caching static assets...')
+    console.log('Trying to install the service worker and cache static assets');
     self.skipWaiting();
     event.waitUntil(
-        caches.open(CACHE_NAME)
+        caches.open(cacheName)
             .then(cache => {
-                return cache.addAll(CACHE_FILES);
+                return cache.addAll(fileToCache);
             })
     );
 });
 
 // activate event
 self.addEventListener('activate', event => {
-    console.log('Activating service worker...');
+    console.log('Activating new service worker...');
 });
 
 // fetch event
 self.addEventListener('fetch', event => {
-    console.log('Fetching request...');
+    console.log('Fetch event');
     event.respondWith(
         caches.match(event.request)
             .then(response => {
@@ -49,11 +49,11 @@ self.addEventListener('fetch', event => {
                 return fetch(event.request)
                 .then(response => {
                     let responseClone = response.clone();
-                    return caches.open(CACHE_NAME).then(cache => {
-                        cache.put(event.request, responseClone);
+                    return caches.open(cacheName).then(cache => {
+                        cache.put(event.request, responseClone());
                         return response;
                     });
-                })
+                });
         }).catch(err => {
             console.log(err);
         })
