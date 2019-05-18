@@ -1,3 +1,4 @@
+const CACHE_NAME;
 const CACHE_FILES = [
     '/',
     '/css/styles.css',
