@@ -24,11 +24,10 @@ const cacheName = 'restaurant-reviews-cache-v1';
 // install service worker
 self.addEventListener('install', event => {
     console.log('Trying to install the service worker and cache static assets');
-    self.skipWaiting();
     event.waitUntil(
         caches.open(cacheName)
             .then(cache => {
-                return cache.addAll(filesToCache);
+                cache.addAll(filesToCache);
         })
     );
 });
@@ -48,7 +47,7 @@ self.addEventListener('fetch', event => {
                         cache.put(event.request, response.clone());
                         return response;
                     });
-                })
+                });
         }).catch(err => {
             console.log(err);
         })
