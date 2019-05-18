@@ -1,6 +1,6 @@
 const CACHE_NAME = 'v1';
 const CACHE_FILES = [
-    '/',
+    /,
     '/css/styles.css',
     '/data/restaurants.json',
     '/img/1.jpg',
