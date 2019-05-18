@@ -1,4 +1,3 @@
-const cacheName = 'restaurant-reviews-cache-v1';
 const filesToCache = [
     '/',
     '/css/styles.css',
@@ -19,6 +18,8 @@ const filesToCache = [
     '/index.html',
     '/restaurant.html'
 ];
+
+const cacheName = 'restaurant-reviews-cache-v1';
 
 // install service worker
 self.addEventListener('install', event => {
