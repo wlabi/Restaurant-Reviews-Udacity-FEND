@@ -1,7 +1,8 @@
-const cacheName = 'restaurant-reviews-cache-v1';
 
 // install service worker
 self.addEventListener('install', event => {
+    const cacheName = 'restaurant-reviews-cache-v1';
+
     console.log('Trying to install the service worker and cache static assets');
     event.waitUntil(
         caches.open(cacheName)
