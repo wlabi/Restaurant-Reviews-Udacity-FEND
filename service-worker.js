@@ -23,7 +23,6 @@ const filesToCache = [
 // install service worker
 self.addEventListener('install', event => {
     console.log('Trying to install the service worker and cache static assets');
-    self.skipWaiting();
     event.waitUntil(
         caches.open(cacheName)
             .then(cache => {
