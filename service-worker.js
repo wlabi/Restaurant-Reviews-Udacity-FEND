@@ -1,4 +1,3 @@
-
 // install service worker
 self.addEventListener('install', event => {
     const cacheName = 'restaurant-reviews-cache-v1';
