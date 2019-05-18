@@ -1,6 +1,6 @@
 const CACHE_NAME = 'v1';
 const CACHE_FILES = [
-
+        '/',
 ];
 
 // install service worker
