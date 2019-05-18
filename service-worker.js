@@ -17,7 +17,7 @@ const CACHE_FILES = [
     '/js/main.js',
     '/js/restaurant_info.js',
     '/index.html',
-    '/restaurant.html'    
+    '/restaurant.html',    
 ];
 
 // install service worker
