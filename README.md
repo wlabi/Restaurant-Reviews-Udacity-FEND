@@ -2,7 +2,7 @@
 
 This repository contains a responsive restaurant reviews app. It uses a service worker to cache the app shell and visited pages
 
-<img src="/img/restaurant-reviews-screenshot.png" alt="screenshot of app" width="100%" height="100%">
+<img src="/img/restaurant-reviews-screenshot.png" alt="screenshot of app" width="50%" height="50%">
 
 [CLICK][1] to launch
 
