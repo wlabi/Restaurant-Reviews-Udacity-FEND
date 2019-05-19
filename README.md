@@ -1,4 +1,4 @@
-# Restaurant-Reviews
+# Restaurant Reviews App
 
 This repository contains a responsive restaurant reviews app. It uses a service worker to cache the app shell and visited pages
 
