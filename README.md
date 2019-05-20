@@ -12,9 +12,7 @@ Clone or download this repository to your local machine and then to use the app 
 
 ## Development
 
-The app was built with HTML, CSS and JavaScript - you can see my JavaScript code in the [app.js](js/app.js) file. In particular I used and further refined the following skills during the development of this game:
-
-I developed the app by doing the following:
+The app shell was built with HTML, CSS and JavaScript and I developed it by doing the following:
 
 * [x] Using the Google Maps API to create customised and secure maps
 * [x] Converting the app shell to a responsive site
