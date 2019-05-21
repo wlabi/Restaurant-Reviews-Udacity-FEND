@@ -4,7 +4,7 @@ This repository contains a restaurant reviews app.
 
 <img src="/img/restaurant-reviews-screenshot.png" alt="screenshot of app" width="30%" height="30%">
 
-[CLICK][1] to launch
+[LAUNCH][1]
 
 ## Installation
 
