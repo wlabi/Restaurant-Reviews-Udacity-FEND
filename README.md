@@ -12,12 +12,12 @@ Clone or download this repository to your local machine and then to use the app 
 
 ## Development
 
-The app shell was built with HTML, CSS and JavaScript and I developed it by doing the following:
+The development of this app included the following:
 
-* [x] Using the Google Maps API to create customised and secure maps
-* [x] Converting the app shell to a responsive site
+* [x] Using Google Maps API to create customised and secure maps
+* [x] Converting the app shell to a responsive design
 * [x] Implementing accessibility features in the HTML
-* [x] Using a service worker to cache requests to the app's info
+* [x] Using a service worker to cache the app's relevant info and thereby making the app similar to a progressive web app
 
 ## License
 
