@@ -651,5 +651,6 @@ nav h1 a {
 
 .container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
