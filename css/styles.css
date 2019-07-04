@@ -656,6 +656,5 @@ nav h1 a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-top: 100px;
-  width: 90%;
-  left: 5%;
+  width: 100%;
 }
