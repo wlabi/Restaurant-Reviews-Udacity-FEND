@@ -37,7 +37,7 @@ ul {
 
 a {
 	color: orangered;
-  text-decoration: none;
+  	text-decoration: none;
 }
 
 a:hover, a:focus {
@@ -404,7 +404,7 @@ nav h1 a {
 
   #restaurants-list {
     /*width: 40vw;*/
-    top: 15vh;
+    top: 101vh;
   }
 
 /*
