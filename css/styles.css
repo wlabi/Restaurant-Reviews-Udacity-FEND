@@ -401,15 +401,17 @@ nav h1 a {
   .filter-options {
     top: 10rem;
   }
-
+/*
   #restaurants-list {
     width: 40vw;
     top: 15vh;
   }
 
+
   #restaurants-list li {
     width: 40rem;
   }
+*/
 
   #restaurant-container, #reviews-container {
     width: 45rem;
