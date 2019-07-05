@@ -477,7 +477,6 @@ nav h1 a {
   #restaurants-list {
     width: 80vw;
     left: 10vw;
-    top: 101vh;
     margin: 0 auto;
   }
 
@@ -608,7 +607,6 @@ nav h1 a {
     background-color: transparent;
     width: 100vw;
     left: 0;
-    top: 101vh;
   }
 
   #restaurants-list li {
