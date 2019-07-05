@@ -342,11 +342,11 @@ nav h1 a {
   opacity: .9;
   width: 55rem;
   margin: 0 auto;
+  top: 101vh;
 }
 
 #restaurant-container {
   /*margin-top: 55%;*/
-  top: 101vh;
   border-radius: 1rem 1rem 0 0;
 }
 
