@@ -427,6 +427,7 @@ nav h1 a {
 
   #restaurant-container, #reviews-container {
     width: 45rem;
+    top: 101vh;
   }
 
   .inside #footer {
