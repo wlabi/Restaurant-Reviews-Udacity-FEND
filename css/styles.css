@@ -680,6 +680,11 @@ nav h1 a {
     border: none;
     width: 100%;
   }
+
+  #restaurant-container, #reviews-container {
+    width: 80%;
+  }
+
 }
 
 /****************************************************************************************/
