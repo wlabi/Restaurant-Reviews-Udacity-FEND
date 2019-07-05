@@ -346,6 +346,7 @@ nav h1 a {
 
 #restaurant-container {
   /*margin-top: 55%;*/
+  top: 101vh;
   border-radius: 1rem 1rem 0 0;
 }
 
