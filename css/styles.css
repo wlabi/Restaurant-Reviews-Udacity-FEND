@@ -492,7 +492,7 @@ nav h1 a {
     width: 100%;
     bottom: 1rem;
   }
-
+/*
   #scroll-down {
     position: fixed;
     left: 50%;
@@ -504,6 +504,7 @@ nav h1 a {
     transform: translate(-50%, 0%) rotate(45deg);
     z-index: -1;
   }
+*/
 
   .inside header {
     font-size: 4rem;
