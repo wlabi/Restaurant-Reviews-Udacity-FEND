@@ -404,7 +404,7 @@ nav h1 a {
 
   #restaurants-list {
     /*width: 40vw;*/
-    top: 101vh;
+    margin-top: 101vh;
   }
 
 /*
