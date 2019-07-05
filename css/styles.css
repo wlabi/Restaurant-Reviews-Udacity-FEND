@@ -478,6 +478,7 @@ nav h1 a {
     width: 80vw;
     left: 10vw;
     margin: 0 auto;
+    margin-top: 101vh;
   }
 
   #restaurants-list li {
