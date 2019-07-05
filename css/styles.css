@@ -400,6 +400,10 @@ nav h1 a {
     z-index: -1;
 }
 
+#main-container {
+    margin-top: 101vh;
+}
+
 /* 1200 px */
 @media (max-width: 75em) {
   .inside header {
