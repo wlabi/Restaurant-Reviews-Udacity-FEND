@@ -387,6 +387,18 @@ nav h1 a {
   font-size: 1.5rem;
 }
 
+#scroll-down {
+    position: fixed;
+    left: 50%;
+    bottom: 10%;
+    width: 5rem;
+    height: 5rem;
+    border-bottom: .4rem solid #333333;
+    border-right: .4rem solid #333333;
+    transform: translate(-50%, 0%) rotate(45deg);
+    z-index: -1;
+}
+
 /* 1200 px */
 @media (max-width: 75em) {
   .inside header {
