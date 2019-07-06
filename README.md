@@ -1,6 +1,6 @@
 # Restaurant Reviews App
 
-This repository contains a restaurant reviews app.
+This repository contains a responsive restaurant reviews app.
 
 <img src="/img/restaurant-reviews-screenshot.png" alt="screenshot of app" width="30%" height="30%">
 
@@ -15,7 +15,7 @@ Clone or download this repository to your local machine and then to use the app 
 The development of this app included the following:
 
 * [x] Using Google Maps API to create customised and secure maps
-* [x] Converting the app shell to a responsive design
+* [x] Converting the app shell to a responsive design using flexbox
 * [x] Implementing accessibility features in the HTML
 * [x] Using a service worker to cache the app's relevant info and thereby making the app similar to a progressive web app
 
