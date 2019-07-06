@@ -339,7 +339,7 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   padding: 0 3rem 2.5rem;
   background-color: #ffffff;
-  /*opacity: .9;*******************************************************************************************/
+  opacity: .9;
   width: 55rem;
   margin: 0 auto;
   top: 101vh;
@@ -444,6 +444,11 @@ nav h1 a {
 
   #restaurants-list li h1 {
     padding-top: 0;
+  }
+	
+  #restaurant-container, #reviews-container {
+    opacity: 1; /*********************************************************************************************/
+
   }
 }
 
