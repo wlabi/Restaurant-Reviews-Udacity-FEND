@@ -1,6 +1,6 @@
 # Restaurant Reviews App
 
-This repository contains a responsive restaurant reviews app.
+This repository contains a responsive filterable restaurant reviews app featuring restaurants in New York.
 
 <img src="/img/restaurant-reviews-screenshot.png" alt="screenshot of app" width="30%" height="30%">
 
